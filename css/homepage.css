@@ -44,3 +44,26 @@ img.bag {
   width: 20px;
   height: 20px;
 }
+
+.home-main-content h1 {
+  font-family: serif;
+  font-size: 72px;
+  margin: 0px 0px 30px; /* top, right and left, bottom*/
+  letter-spacing: -4px;
+}
+
+.home-main-content p,
+.home-main-content a {
+  font-family: sans-serif;
+}
+
+.home-main-content a {
+  font-size: 12px;
+  width: 100%;
+}
+
+.home-main-content p {
+  margin: 0px 64px 30px 64px;
+  font-size: 22px;
+  letter-spacing: -1px;
+}
