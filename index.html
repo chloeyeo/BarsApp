@@ -23,7 +23,8 @@
             class="bg-info text-dark fw-bold text-decoration-none fs-3"
             >Bars</a
           >
-          <ul class="bg-info mt-3 d-flex justify-content-center">
+          <!-- mt-3 here works but align-itmes center to surrounding div doesn't work - why? -->
+          <div class="bg-info  d-flex justify-content-center align-items-center">
             <li>
               <a href="#" class="px-2 text-dark text-decoration-none"
                 >SHAMPOO</a
@@ -39,7 +40,7 @@
                 >OUR IMPACT</a
               >
             </li>
-          </ul>
+          </div>
           <div class="icons d-flex gap-3">
             <img src="./images/person.svg" class=""></a>
             <img src="./images/bag.svg"></a>
