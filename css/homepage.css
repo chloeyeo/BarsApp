@@ -26,6 +26,20 @@ header .menu-items {
   font-size: x-small;
 }
 
+header .menu-items li,
+header .menu-items a {
+  height: 100%;
+}
+
+header .menu-items li:hover {
+  /* without border-bottom: solid it won't work! must write solid
+  SOLID means displaying a single, straight, solid line.
+  Other possible values are; DOTTED: Displaying a series of
+  rounded dots. DASHED: Displaying a series of short
+  square-ended dashes or line segments.*/
+  border-bottom: solid 2px #131313; /*why is this Not working*/
+}
+
 header {
   height: 80px;
 }
